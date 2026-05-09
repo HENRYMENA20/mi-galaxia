@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Agujero Negro del Amor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;1,300;1,400&family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="modal">
+  <div class="card">
+    <div class="card-img-wrap">
+      <img src="img/Imagen6.jpeg" alt="Galaxia" onerror="this.src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/NGC_4414_%28NASA-med%29.jpg/600px-NGC_4414_%28NASA-med%29.jpg'">
+    </div>
+    <div class="card-quote">Contigo encontré el lugar donde quiero quedarme para siempre 🪐</div>
+    <div class="card-sub">Un universo · solo para ti</div>
+    <button id="btn-entrar">
+      <span class="heart">♡</span> Toca aquí, Amor <span class="heart">♡</span>
+    </button>
+  </div>
+</div>
+
+<div class="top-text" id="top-text"> ♡</div>
+<div id="hint"></div>
+<canvas id="galaxy"></canvas>
+
+<audio id="musica" loop>
+  <source src="https://github.com/codeninja543/codeninja5433/raw/refs/heads/main/Umberto%20Tozzi%20-%20Te%20Amo%20(Letra).mp3" type="audio/mpeg">
+</audio>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+<script type="module" src="script.js"></script>
+</body>
+</html>
